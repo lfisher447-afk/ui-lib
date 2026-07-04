@@ -1,0 +1,46 @@
+{
+  "project": {
+    "name": "Zerio & Mustard UI Suite",
+    "codename": "Zerio-Core",
+    "version": "1.23",
+    "license": "MIT",
+    "stable_release": "v1.23-stable"
+  },
+  "runtime": {
+    "python": ">=3.8",
+    "recommended_python": "3.10.x",
+    "platforms": ["Windows 10/11", "macOS Big Sur/Monterey/Ventura", "Linux (Ubuntu/Debian/Fedora)"]
+  },
+  "dependencies": {
+    "customtkinter": {
+      "version": ">=5.2.0",
+      "required": true,
+      "purpose": "Responsive cyber-slate dark GUI widgets, sliding grid frames, and bento layouts"
+    },
+    "Pillow": {
+      "version": ">=10.0.0",
+      "required": true,
+      "purpose": "High-fidelity rendering of avatars, custom widgets, vector icons, and badges"
+    },
+    "numpy": {
+      "version": ">=1.20.0",
+      "required": false,
+      "purpose": "Fast matrix operations, double-boundary coordinate scaling, and Blender armature mesh vectors"
+    },
+    "matplotlib": {
+      "version": ">=3.7.0",
+      "required": false,
+      "purpose": "Integrated UI ChartsCanvas plotting widgets and Speedometer gauge dials"
+    }
+  },
+  "optional_integrations": {
+    "requests": {
+      "version": ">=2.31.0",
+      "purpose": "Alternative high-performance remote raw file caching and GitHub API metadata downloads"
+    },
+    "bpy": {
+      "version": ">=4.0.0",
+      "purpose": "Native Blender Python API wrapper, required to execute bone rigs normalizer and keyframes reducer addons"
+    }
+  }
+}

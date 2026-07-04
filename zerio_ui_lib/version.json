@@ -1,0 +1,9 @@
+{
+  "version": "1.23",
+  "changelog": [
+    "Added live GitHub repository metadata integration (stargazers, forks, latest commit logs)",
+    "Added full support for automatic versioning and update prompts in python loaders",
+    "Compiled massive 230+ production files into unified cache libraries",
+    "Upgraded Bento GUI slider matrices and coordinate boundaries scaling"
+  ]
+}
